@@ -95,9 +95,31 @@ main {
     width: 100%;
     background-image: url("../images/hero-image.webp");
     background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+
+}
+/* Benefits Circle Image */
+#circle-cover-bg {
+    height: 90vw;
+    width: 90vw;
+    background-image: url("../images/reasons-image.webp");
+    background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     position: relative;
+    margin-bottom: 20px;
+    /* Makes the circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    
+#benefits-image{ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 }
 #cover-text {
     background-color: rgba(241, 109, 107, 7);
